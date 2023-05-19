@@ -150,6 +150,17 @@ div.post-page a.edit-btn{
     border-radius: 5px;
     text-decoration: none;
 }
+div.post-page button.dlt-btn {
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    background-color: #d63f3f;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 0;
+    width: 50%;
+  }
 a svg{
     height:20px;
 }

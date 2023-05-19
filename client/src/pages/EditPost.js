@@ -41,6 +41,8 @@ export default function EditPost() {
     }
   }
 
+
+
   if (redirect) {
     return <Navigate to={'/post/'+id} />
   }
@@ -59,6 +61,7 @@ export default function EditPost() {
              onChange={ev => setFiles(ev.target.files)} />
       <Editor onChange={setContent} value={content} />
       <button style={{marginTop:'5px'}}>Update post</button>
+     
     </form>
   );
 }
